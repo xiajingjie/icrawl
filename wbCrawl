@@ -1,0 +1,194 @@
+import requests
+import json
+from datetime import datetime
+import csv
+import time
+from DrissionPage import ChromiumPage, ChromiumOptions
+
+count = 0  # 评论数量计数器
+
+def add_count():
+    global count
+    count += 1
+
+# 获取 headers
+def get_header(cookies):
+    cookie_str = "; ".join(f"{c['name']}={c['value']}" for c in cookies)
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36",
+        "Cookie": cookie_str,
+        "Accept": "application/json, text/plain, */*",
+        "Referer": "https://weibo.com/",
+    }
+    return headers
+
+# 提取微博uid和mid
+def get_keyword(url):
+    parts = url.split('/')
+    return parts[-2], url_to_mid(parts[-1])
+
+# base62解码
+def decode_base62(b62_str):
+    charset = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+    base = 62
+    num = 0
+    for c in b62_str:
+        num = num * base + charset.index(c)
+    return num
+
+# URL中的id转为mid
+def url_to_mid(url):
+    result = ''
+    for i in range(len(url), 0, -4):
+        start = max(i - 4, 0)
+        segment = url[start:i]
+        num = str(decode_base62(segment))
+        if start != 0:
+            num = num.zfill(7)
+        result = num + result
+    return int(result)
+
+# 获取用户名
+def get_name(uid):
+    url = f"https://weibo.com/ajax/profile/info?custom={uid}"
+    try:
+        response = requests.get(url, headers=get_header(cookies), timeout=10)
+        response.raise_for_status()
+        return response.json()['data']['user']['screen_name']
+    except Exception as e:
+        print(f"获取用户名失败: {e}")
+        return "Unknown"
+
+# 计算年龄
+def get_age(birthday):
+    birth = datetime.strptime(birthday, "%Y-%m-%d")
+    today = datetime.today()
+    return today.year - birth.year - ((today.month, today.day) < (birth.month, birth.day))
+
+# 获取用户详细信息
+def get_user_info(uid):
+    try:
+        headers = get_header(cookies)
+
+        # 基本信息
+        url1 = f"https://weibo.com/ajax/profile/info?uid={uid}"
+        user_data = requests.get(url1, headers=headers).json()['data']['user']
+
+        followers_count = user_data.get('followers_count', '')
+        friends_count = user_data.get('friends_count', '')
+        total_cnt = user_data.get('status_total_counter', {}).get('total_cnt', '').replace(",", "")
+        description = user_data.get('description', '')
+        verified = '是' if user_data.get('verified', False) else '否'
+        gender = {'m': '男', 'f': '女'}.get(user_data.get('gender', ''), '未知')
+        svip = user_data.get('svip', '')
+
+        # 详情信息
+        url2 = f"https://weibo.com/ajax/profile/detail?uid={uid}"
+        data = requests.get(url2, headers=headers).json()['data']
+
+        birthday_str = data.get('birthday', '')
+        age = ''
+        constellation = ''
+        if birthday_str:
+            parts = birthday_str.split(' ')
+            if len(parts) >= 1:
+                try:
+                    age = get_age(parts[0])
+                except:
+                    age = ''
+            if len(parts) >= 2:
+                constellation = parts[1]
+
+        weibo_created = data.get('created_at', '')
+        school = data.get('education', {}).get('school', '')
+        career = data.get('career', {}).get('company', '')
+        desc_text = data.get('desc_text', '')
+        user_location = data.get('ip_location', '其他')[5:]
+        sunshine_credit = data.get('sunshine_credit', {}).get('level', '')[2:]
+
+        return followers_count, friends_count, total_cnt, user_location, description, verified, gender, svip, age, constellation, weibo_created, school, career, desc_text, sunshine_credit
+
+    except Exception as e:
+        print(f"获取用户信息失败: {e}")
+        return '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''
+
+# 评论数据解析
+def get_data(data):
+    idstr = data['idstr']
+    rootidstr = data.get('rootidstr', '')
+    created_at = datetime.strptime(data['created_at'], "%a %b %d %H:%M:%S %z %Y").strftime("%Y-%m-%d %H:%M:%S")
+    screen_name = data['user']['screen_name']
+    user_id = data['user']['id']
+    text_raw = data['text_raw']
+    like = data['like_counts']
+    total_number = data.get('total_number', 0)
+    com_source = data['source'][2:]
+
+    fan = {'1': '铁粉', '2': '金粉', '3': '钻粉'}
+    try:
+        icon_url = data['user']['fansIcon']['icon_url']
+        fansIcon = f"{fan[icon_url[-7]]}{icon_url[-5]}"
+    except:
+        fansIcon = ''
+
+    # 用户详细数据
+    user_info = get_user_info(user_id)
+
+    return (
+        idstr, created_at, screen_name, user_id, text_raw, like, com_source, total_number, rootidstr, fansIcon, *user_info
+    )
+
+# 评论获取主逻辑
+def get_information(uid, mid, max_id, fetch_level):
+    if max_id == '':
+        url = f"https://weibo.com/ajax/statuses/buildComments?flow=1&is_reload=1&id={mid}&is_show_bulletin=2&is_mix=0&count=20&uid={uid}&fetch_level={fetch_level}&locale=zh-CN"
+    else:
+        url = f"https://weibo.com/ajax/statuses/buildComments?flow=1&is_reload=1&id={mid}&is_show_bulletin=2&is_mix=0&max_id={max_id}&count=20&uid={uid}&fetch_level={fetch_level}&locale=zh-CN"
+
+    try:
+        resp = requests.get(url, headers=get_header(cookies)).json()
+        datas = resp['data']
+
+        for data in datas:
+            add_count()
+            row = get_data(data)
+            if fetch_level == 0:
+                row = list(row)
+                row[8] = ''  # rootidstr清空
+            csv_writer.writerow([count, *row])
+            time.sleep(0.5)
+            if row[7] > 0 and fetch_level == 0:
+                get_information(uid, row[0], 0, 1)
+
+        print(f"当前爬取:{count}条")
+        max_id = resp['max_id']
+        if max_id != 0:
+            get_information(uid, mid, max_id, fetch_level)
+    except Exception as e:
+        print(f"获取评论失败: {e}")
+
+# 主入口
+if __name__ == "__main__":
+    start = time.time()
+    options = ChromiumOptions()
+    options.set_browser_path(r"G:\software backup\RunningCheeseChrome\App\chrome.exe")  # 修改为你的路径
+    dp = ChromiumPage(addr_driver_opts=options)
+    dp.get('https://m.weibo.com/')
+    cookies = dp.cookies()
+
+    url = "https://weibo.com/6633611311/PvyZ3C558"
+    uid, mid = get_keyword(url)
+    user_name = get_name(uid)
+    print(f"\n创建csv表中...\n创建  {user_name}_{url.split('/')[-1]}_评论(Max版)  ....")
+
+    csv_path = f'I:/project/pachong/{user_name}_{url.split("/")[-1]}_评论(Max版).csv'
+    with open(csv_path, mode='w', newline='', encoding='utf-8-sig') as file:
+        csv_writer = csv.writer(file)
+        csv_writer.writerow(
+            ['序号', '评论标识号', '时间', '用户名', '用户ID', '评论内容', '点赞数', '评论IP', '回复数', '上级评论',
+             '粉丝牌', '粉丝数', '关注数', '转赞评', '主页IP', '简介', '认证信息', '是否认证', '会员等级',
+             '年龄', '星座', '注册时间', '学校', '公司', '信用等级']
+        )
+        get_information(uid, mid, '', 0)
+
+    print(f"\n评论爬取完成，共计{count}条，耗时{(time.time() - start) / 60:.2f}分钟")
