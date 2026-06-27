@@ -299,23 +299,23 @@ http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001600/index.m3u8
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001610/index.m3u8
 #EXTINF:-1 tvg-name="世界地理" tvg-logo="https://logo.catvod.com/世界地理.png" group-title="数字付费",世界地理
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001620/index.m3u8
-#EXTINF:-1 tvg-name="女性时尚" tvg-logo="https://logo.catvod.com/女性时尚.png" group-title="数字付费",女性时尚
+#EXTINF:-1 tvg-name="女性时尚" tvg-logo="https://logo.catvod.com/女性时尚.png" group-title="央视",女性时尚
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001571/index.m3u8
-#EXTINF:-1 tvg-name="高尔夫网球" tvg-logo="https://logo.catvod.com/高尔夫网球.png" group-title="数字付费",高尔夫网球
+#EXTINF:-1 tvg-name="高尔夫网球" tvg-logo="https://logo.catvod.com/高尔夫网球.png" group-title="央视",高尔夫网球
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001630/index.m3u8
 #EXTINF:-1 tvg-name="怀旧剧场" tvg-logo="https://logo.catvod.com/怀旧剧场.png" group-title="数字付费",怀旧剧场
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001640/index.m3u8
 #EXTINF:-1 tvg-name="风云剧场" tvg-logo="https://logo.catvod.com/风云剧场.png" group-title="数字付费",风云剧场
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001650/index.m3u8
-#EXTINF:-1 tvg-name="第一剧场" tvg-logo="https://logo.catvod.com/第一剧场.png" group-title="数字付费",第一剧场
+#EXTINF:-1 tvg-name="第一剧场" tvg-logo="https://logo.catvod.com/第一剧场.png" group-title="央视",第一剧场
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001621/index.m3u8
-#EXTINF:-1 tvg-name="风云音乐" tvg-logo="https://logo.catvod.com/风云音乐.png" group-title="数字付费",风云音乐
+#EXTINF:-1 tvg-name="风云音乐" tvg-logo="https://logo.catvod.com/风云音乐.png" group-title="央视",风云音乐
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001660/index.m3u8
-#EXTINF:-1 tvg-name="央视文化精品" tvg-logo="https://logo.catvod.com/央视文化精品.png" group-title="数字付费",央视文化精品
+#EXTINF:-1 tvg-name="央视文化精品" tvg-logo="https://logo.catvod.com/央视文化精品.png" group-title="央视",央视文化精品
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001670/index.m3u8
-#EXTINF:-1 tvg-name="早期教育" tvg-logo="https://logo.catvod.com/早期教育.png" group-title="数字付费",早期教育
+#EXTINF:-1 tvg-name="早期教育" tvg-logo="https://logo.catvod.com/早期教育.png" group-title="少儿卡通",早期教育
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001680/index.m3u8
-#EXTINF:-1 tvg-name="财富天下" tvg-logo="https://logo.catvod.com/财富天下.png" group-title="数字付费",财富天下
+#EXTINF:-1 tvg-name="财富天下" tvg-logo="https://logo.catvod.com/财富天下.png" group-title="购物财经",财富天下
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001219/index.m3u8
 #EXTINF:-1 tvg-name="多彩文体" tvg-logo="https://logo.catvod.com/多彩文体.png" group-title="数字付费",多彩文体
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001193/index.m3u8
