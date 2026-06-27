@@ -347,11 +347,11 @@ http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001020/index.m3u8
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001226/index.m3u8
 #EXTINF:-1 tvg-name="中国教育-4" tvg-logo="https://logo.catvod.com/中国教育-4.png" group-title="少儿卡通",中国教育-4
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001348/index.m3u8
-#EXTINF:-1 tvg-name="金鹰纪实" tvg-logo="https://logo.catvod.com/金鹰纪实.png" group-title="付费频道",金鹰纪实
+#EXTINF:-1 tvg-name="金鹰纪实" tvg-logo="https://logo.catvod.com/金鹰纪实.png" group-title="数字付费",金鹰纪实
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001230/index.m3u8
-#EXTINF:-1 tvg-name="CGTN" tvg-logo="https://logo.catvod.com/CGTN.png" group-title="付费频道",CGTN
+#EXTINF:-1 tvg-name="CGTN" tvg-logo="https://logo.catvod.com/CGTN.png" group-title="数字付费",CGTN
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001058/index.m3u8
-#EXTINF:-1 tvg-name="高清导视频道" tvg-logo="https://logo.catvod.com/高清导视频道.png" group-title="央视",高清导视频道
+#EXTINF:-1 tvg-name="高清导视频道" tvg-logo="https://logo.catvod.com/高清导视频道.png" group-title="数字付费",高清导视频道
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001162/index.m3u8
 #EXTINF:-1 tvg-name="直播室101" tvg-logo="https://logo.catvod.com/直播室101.png" group-title="其他特色",直播室101
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001148/index.m3u8
