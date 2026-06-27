@@ -211,9 +211,9 @@ http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001018/index.m3u8
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001104/index.m3u8
 #EXTINF:-1 tvg-name="哈哈炫动" tvg-logo="https://logo.catvod.com/哈哈炫动.png" group-title="上海本地",哈哈炫动
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001232/index.m3u8
-#EXTINF:-1 tvg-name="上海教育" tvg-logo="https://logo.catvod.com/上海教育.png" group-title="上海本地",上海教育
+#EXTINF:-1 tvg-name="上海教育" tvg-logo="https://logo.catvod.com/上海教育.png" group-title="少儿卡通",上海教育
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001053/index.m3u8
-#EXTINF:-1 tvg-name="上海教育" tvg-logo="https://logo.catvod.com/上海教育.png" group-title="上海本地",上海教育
+#EXTINF:-1 tvg-name="上海教育" tvg-logo="https://logo.catvod.com/上海教育.png" group-title="少儿卡通",上海教育
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001268/index.m3u8
 #EXTINF:-1 tvg-name="金色学堂" tvg-logo="https://logo.catvod.com/金色学堂.png" group-title="上海本地",金色学堂
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001106/index.m3u8
