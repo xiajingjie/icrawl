@@ -397,6 +397,8 @@ http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001121/index.m3u8
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001040/index.m3u8
 #EXTINF:-1 tvg-name="东方购物-2" tvg-logo="https://logo.catvod.com/东方购物-2.png" group-title="财经购物",东方购物-2
 http://39.134.87.62/000000001000/5000000011000031125/index.m3u8
+#EXTINF:-1 tvg-name="东方购物-2" tvg-logo="https://logo.catvod.com/东方购物-2.png" group-title="财经购物",东方购物-3
+http://39.134.87.62/000000001000/5000000007000010004/index.m3u8
 #EXTINF:-1 tvg-name="CCTV16" tvg-logo="https://logo.catvod.com/CCTV16.png" group-title="央视",CCTV-16
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001258/index.m3u8
 #EXTINF:-1 tvg-name="CCTV4K" tvg-logo="https://logo.catvod.com/CCTV4K.png" group-title="4K超高清",CCTV-4K
