@@ -63,12 +63,16 @@ http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001059/index.m3u8
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001309/index.m3u8
 #EXTINF:-1 tvg-name="CCTV11" tvg-logo="https://logo.catvod.com/CCTV11.png" group-title="央视",CCTV-11
 http://39.134.87.62/000000001000/5000000011000031106/index.m3u8
+#EXTINF:-1 tvg-name="CCTV11" tvg-logo="https://logo.catvod.com/CCTV11.png" group-title="央视",CCTV-11
+http://39.134.87.62/000000001000/5000000006000040011/index.m3u8 
 #EXTINF:-1 tvg-name="CCTV12" tvg-logo="https://logo.catvod.com/CCTV12.png" group-title="央视",CCTV-12
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001060/index.m3u8
 #EXTINF:-1 tvg-name="CCTV12" tvg-logo="https://logo.catvod.com/CCTV12.png" group-title="央视",CCTV-12
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001239/index.m3u8
 #EXTINF:-1 tvg-name="CCTV12" tvg-logo="https://logo.catvod.com/CCTV12.png" group-title="央视",CCTV-12
 http://39.134.87.62/000000001000/5000000011000031107/index.m3u8
+#EXTINF:-1 tvg-name="CCTV12" tvg-logo="https://logo.catvod.com/CCTV12.png" group-title="央视",CCTV-12
+http://39.134.87.62/000000001000/5000000006000040012/index.m3u8 
 #EXTINF:-1 tvg-name="CCTV13" tvg-logo="https://logo.catvod.com/CCTV13.png" group-title="央视",CCTV-13
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001061/index.m3u8
 #EXTINF:-1 tvg-name="CCTV13" tvg-logo="https://logo.catvod.com/CCTV13.png" group-title="央视",CCTV-13
@@ -235,8 +239,12 @@ http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001094/index.m3u8
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001223/index.m3u8
 #EXTINF:-1 tvg-name="云南卫视" tvg-logo="https://logo.catvod.com/云南卫视.png" group-title="卫视",云南卫视
 http://39.134.87.62/000000001000/5000000011000031120/index.m3u8
+#EXTINF:-1 tvg-name="云南卫视" tvg-logo="https://logo.catvod.com/云南卫视.png" group-title="卫视",云南卫视
+http://39.134.87.62/000000001000/5000000006000040019/index.m3u8 
 #EXTINF:-1 tvg-name="广西卫视" tvg-logo="https://logo.catvod.com/广西卫视.png" group-title="卫视",广西卫视
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001095/index.m3u8
+#EXTINF:-1 tvg-name="广西卫视" tvg-logo="https://logo.catvod.com/广西卫视.png" group-title="卫视",广西卫视
+http://39.134.87.62/000000001000/5000000006000040014/index.m3u8 
 #EXTINF:-1 tvg-name="广西卫视" tvg-logo="https://logo.catvod.com/广西卫视.png" group-title="卫视",广西卫视
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001224/index.m3u8
 #EXTINF:-1 tvg-name="广西卫视" tvg-logo="https://logo.catvod.com/广西卫视.png" group-title="卫视",广西卫视
@@ -253,6 +261,8 @@ http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001074/index.m3u8
 http://39.134.87.62/000000001000/5000000006000040022/index.m3u8
 #EXTINF:-1 tvg-name="新疆卫视" tvg-logo="https://logo.catvod.com/新疆卫视.png" group-title="卫视",新疆卫视
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001065/index.m3u8
+#EXTINF:-1 tvg-name="新疆卫视" tvg-logo="https://logo.catvod.com/新疆卫视.png" group-title="卫视",新疆卫视
+http://39.134.87.62/000000001000/5000000006000040018/index.m3u8 
 #EXTINF:-1 tvg-name="西藏卫视" tvg-logo="https://logo.catvod.com/西藏卫视.png" group-title="卫视",西藏卫视
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001072/index.m3u8
 #EXTINF:-1 tvg-name="吉林卫视" tvg-logo="https://logo.catvod.com/吉林卫视.png" group-title="卫视",吉林卫视
@@ -261,6 +271,8 @@ http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001077/index.m3u8
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001225/index.m3u8
 #EXTINF:-1 tvg-name="吉林卫视" tvg-logo="https://logo.catvod.com/吉林卫视.png" group-title="卫视",吉林卫视
 http://39.134.87.62/000000001000/5000000011000031117/index.m3u8
+#EXTINF:-1 tvg-name="吉林卫视" tvg-logo="https://logo.catvod.com/吉林卫视.png" group-title="卫视",吉林卫视
+http://39.134.87.62/000000001000/5000000006000040013/index.m3u8 
 #EXTINF:-1 tvg-name="海南卫视" tvg-logo="https://logo.catvod.com/海南卫视.png" group-title="卫视",海南卫视
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001076/index.m3u8
 #EXTINF:-1 tvg-name="海南卫视" tvg-logo="https://logo.catvod.com/海南卫视.png" group-title="卫视",海南卫视
@@ -311,6 +323,8 @@ http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001104/index.m3u8
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001232/index.m3u8
 #EXTINF:-1 tvg-name="哈哈炫动" tvg-logo="https://logo.catvod.com/哈哈炫动.png" group-title="少儿卡通",哈哈炫动
 http://39.134.87.62/000000001000/5000000005000031641/index.m3u8
+#EXTINF:-1 tvg-name="哈哈炫动" tvg-logo="https://logo.catvod.com/哈哈炫动.png" group-title="少儿卡通",哈哈炫动
+http://39.134.87.62/000000001000/5000000011000031123/index.m3u8 
 #EXTINF:-1 tvg-name="上海教育" tvg-logo="https://logo.catvod.com/上海教育.png" group-title="少儿卡通",上海教育
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001053/index.m3u8
 #EXTINF:-1 tvg-name="上海教育" tvg-logo="https://logo.catvod.com/上海教育.png" group-title="少儿卡通",上海教育
@@ -365,6 +379,8 @@ http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001110/index.m3u8
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001200/index.m3u8
 #EXTINF:-1 tvg-name="乐游" tvg-logo="https://logo.catvod.com/乐游.png" group-title="上海本地",乐游
 http://39.134.87.62/000000001000/5000000011000031112/index.m3u8
+#EXTINF:-1 tvg-name="乐游" tvg-logo="https://logo.catvod.com/乐游.png" group-title="上海本地",乐游
+http://39.134.87.62/000000001000/5000000006000040025/index.m3u8
 #EXTINF:-1 tvg-name="东方购物-1" tvg-logo="https://logo.catvod.com/东方购物-1.png" group-title="财经购物",东方购物-1
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001120/index.m3u8
 #EXTINF:-1 tvg-name="东方购物-1" tvg-logo="https://logo.catvod.com/东方购物-1.png" group-title="财经购物",东方购物-1
@@ -383,6 +399,8 @@ http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001258/index.m3u8
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001451/index.m3u8
 #EXTINF:-1 tvg-name="多彩文体4K" tvg-logo="https://logo.catvod.com/多彩文体4K.png" group-title="4K超高清",多彩文体4K
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001490/index.m3u8
+#EXTINF:-1 tvg-name="多彩文体4K" tvg-logo="https://logo.catvod.com/多彩文体4K.png" group-title="4K超高清",多彩文体4K
+http://39.134.87.62/000000001000/5000000007000010001/index.m3u8
 #EXTINF:-1 tvg-name="北京卫视4K" tvg-logo="https://logo.catvod.com/北京卫视4K.png" group-title="4K超高清",北京卫视4K
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001510/index.m3u8
 #EXTINF:-1 tvg-name="北京卫视4K" tvg-logo="https://logo.catvod.com/北京卫视4K.png" group-title="4K超高清",北京卫视4K
@@ -479,6 +497,8 @@ http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001226/index.m3u8
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001348/index.m3u8
 #EXTINF:-1 tvg-name="中国教育-4" tvg-logo="https://logo.catvod.com/中国教育-4.png" group-title="少儿卡通",中国教育-4
 http://39.134.87.62/000000001000/5000000006000012123/index.m3u8
+#EXTINF:-1 tvg-name="中国教育-4" tvg-logo="https://logo.catvod.com/中国教育-4.png" group-title="少儿卡通",中国教育-4
+http://39.134.87.62/000000001000/5000000011000031126/index.m3u8 
 #EXTINF:-1 tvg-name="金鹰纪实" tvg-logo="https://logo.catvod.com/金鹰纪实.png" group-title="数字付费",金鹰纪实
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001230/index.m3u8
 #EXTINF:-1 tvg-name="CGTN" tvg-logo="https://logo.catvod.com/CGTN.png" group-title="数字付费",CGTN
