@@ -523,9 +523,9 @@ http://39.134.87.62/000000001000/5000000002000009455/index.m3u8
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001490/index.m3u8
 #EXTINF:-1 tvg-name="多彩文体4K" tvg-logo="https://logo.catvod.com/多彩文体4K.png" group-title="4k超清",多彩文体4K
 http://39.134.87.62/000000001000/5000000007000010001/index.m3u8
-#EXTINF:-1 tvg-name="多彩文体4K" tvg-logo="https://logo.catvod.com/多彩文体4k.png" group-title="4k超清",多彩文体4k
+#EXTINF:-1 tvg-name="多彩文体4K" tvg-logo="https://logo.catvod.com/多彩文体4K.png" group-title="4k超清",多彩文体4K
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001193/index.m3u8
-#EXTINF:-1 tvg-name="多彩文体4K" tvg-logo="https://logo.catvod.com/多彩文体4k.png" group-title="4k超清",多彩文体4k
+#EXTINF:-1 tvg-name="多彩文体4K" tvg-logo="https://logo.catvod.com/多彩文体4K.png" group-title="4k超清",多彩文体4K
 http://117.135.56.6:6060/cms001/ch00000090990000001193/index.m3u8
 #EXTINF:-1 tvg-name="北京卫视4K" tvg-logo="https://logo.catvod.com/北京卫视4K.png" group-title="4k超清",北京卫视4K
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001510/index.m3u8
