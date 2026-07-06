@@ -591,63 +591,63 @@ http://117.135.56.6:6060/cms001/ch00000090990000001193/index.m3u8
 #EXTINF:-1 tvg-name="快乐垂钓" tvg-logo="https://logo.catvod.com/快乐垂钓.png" group-title="数字",快乐垂钓
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001235/index.m3u8
 http://117.135.56.6:6060/cms001/ch00000090990000001235/index.m3u8
-#EXTINF:-1 tvg-name="CGTN" tvg-logo="https://live.fanmingming.com/tv/CGTN.png" group-title="央视频道",CGTN英语
+#EXTINF:-1 tvg-name="CGTN" tvg-logo="https://live.fanmingming.com/tv/CGTN.png" group-title="央视",CGTN英语
 https://0472.org/hls/cgtn.m3u8
-#EXTINF:-1 tvg-name="CGTN" tvg-logo="https://logo.catvod.com/CGTN.png" group-title="央视频道",CGTN英语
+#EXTINF:-1 tvg-name="CGTN" tvg-logo="https://logo.catvod.com/CGTN.png" group-title="央视",CGTN英语
 http://39.134.87.62/000000001000/4810873738577663591/index.m3u8
-#EXTINF:-1 tvg-name="CGTN" tvg-logo="https://logo.catvod.com/CGTN.png" group-title="央视频道",CGTN英语
+#EXTINF:-1 tvg-name="CGTN" tvg-logo="https://logo.catvod.com/CGTN.png" group-title="央视",CGTN英语
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001058/index.m3u8
-#EXTINF:-1 tvg-name="CGTN纪录" tvg-logo="https://live.fanmingming.com/tv/CGTN纪录.png" group-title="央视频道",CGTN记录
+#EXTINF:-1 tvg-name="CGTN纪录" tvg-logo="https://live.fanmingming.com/tv/CGTN纪录.png" group-title="央视",CGTN记录
 https://0472.org/hls/cgtnd.m3u8
-#EXTINF:-1 tvg-name="CGTN俄语" tvg-logo="https://live.fanmingming.com/tv/CGTN俄语.png" group-title="央视频道",CGTN俄语
+#EXTINF:-1 tvg-name="CGTN俄语" tvg-logo="https://live.fanmingming.com/tv/CGTN俄语.png" group-title="央视",CGTN俄语
 https://0472.org/hls/cgtne.m3u8
-#EXTINF:-1 tvg-name="CGTN法语" tvg-logo="https://live.fanmingming.com/tv/CGTN法语.png" group-title="央视频道",CGTN法语
+#EXTINF:-1 tvg-name="CGTN法语" tvg-logo="https://live.fanmingming.com/tv/CGTN法语.png" group-title="央视",CGTN法语
 https://0472.org/hls/cgtnf.m3u8
-#EXTINF:-1 tvg-name="CGTN西语" tvg-logo="https://live.fanmingming.com/tv/CGTN西语.png" group-title="央视频道",CGTN西语
+#EXTINF:-1 tvg-name="CGTN西语" tvg-logo="https://live.fanmingming.com/tv/CGTN西语.png" group-title="央视",CGTN西语
 https://0472.org/hls/cgtnx.m3u8
-#EXTINF:-1 tvg-name="CGTN阿语" tvg-logo="https://live.fanmingming.com/tv/CGTN阿语.png" group-title="央视频道",CGTN阿语
+#EXTINF:-1 tvg-name="CGTN阿语" tvg-logo="https://live.fanmingming.com/tv/CGTN阿语.png" group-title="央视",CGTN阿语
 https://0472.org/hls/cgtna.m3u8
 #EXTINF:-1 tvg-name="高清导视频道" tvg-logo="https://logo.catvod.com/高清导视频道.png" group-title="数字",高清导视频道
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001162/index.m3u8
 #EXTINF:-1 tvg-name="精彩竞技" tvg-logo="https://logo.catvod.com/精彩竞技.png" group-title="数字",精彩竞技
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001378/index.m3u8
-#EXTINF:-1 tvg-name="金鹰卡通 tvg-logo="https://logo.catvod.com/金鹰卡通png" group-title="少儿卡通,金鹰卡通
+#EXTINF:-1 tvg-name="金鹰卡通 tvg-logo="https://logo.catvod.com/金鹰卡通png" group-title="少儿卡通",金鹰卡通
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001098/index.m3u8
-#EXTINF:-1 tvg-name="金鹰卡通 tvg-logo="https://logo.catvod.com/金鹰卡通png" group-title="少儿卡通,金鹰卡通
+#EXTINF:-1 tvg-name="金鹰卡通 tvg-logo="https://logo.catvod.com/金鹰卡通png" group-title="少儿卡通",金鹰卡通
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001460/index.m3u8
 http://117.135.56.6:6060/cms001/ch00000090990000001460/index.m3u8
-#EXTINF:-1 tvg-name="金鹰卡通 tvg-logo="https://logo.catvod.com/金鹰卡通png" group-title="少儿卡通,金鹰卡通
+#EXTINF:-1 tvg-name="金鹰卡通 tvg-logo="https://logo.catvod.com/金鹰卡通png" group-title="少儿卡通",金鹰卡通
 http://39.134.87.62/000000001000/5000000006000040024/index.m3u8
-#EXTINF:-1 tvg-name="嘉佳卡通 tvg-logo="https://logo.catvod.com/嘉佳卡通png" group-title="少儿卡通,嘉佳卡通
+#EXTINF:-1 tvg-name="嘉佳卡通 tvg-logo="https://logo.catvod.com/嘉佳卡通png" group-title="少儿卡通",嘉佳卡通
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001227/index.m3u8
-#EXTINF:-1 tvg-name="嘉佳卡通 tvg-logo="https://logo.catvod.com/嘉佳卡通png" group-title="少儿卡通,嘉佳卡通
+#EXTINF:-1 tvg-name="嘉佳卡通 tvg-logo="https://logo.catvod.com/嘉佳卡通png" group-title="少儿卡通",嘉佳卡通
 http://39.134.87.62/000000001000/4739906347743456369/index.m3u8
-#EXTINF:-1 tvg-name="卡酷少儿" tvg-logo="https://logo.catvod.com/卡酷少儿.png" group-title="少儿卡通,卡酷少儿
+#EXTINF:-1 tvg-name="卡酷少儿" tvg-logo="https://logo.catvod.com/卡酷少儿.png" group-title="少儿卡通",卡酷少儿
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001228/index.m3u8
-#EXTINF:-1 tvg-name="卡酷少儿" tvg-logo="https://logo.catvod.com/卡酷少儿.png" group-title="少儿卡通,卡酷少儿
+#EXTINF:-1 tvg-name="卡酷少儿" tvg-logo="https://logo.catvod.com/卡酷少儿.png" group-title="少儿卡通",卡酷少儿
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001245/index.m3u8
 http://117.135.56.6:6060/cms001/ch00000090990000001245/index.m3u8
-#EXTINF:-1 tvg-name="卡酷少儿" tvg-logo="https://logo.catvod.com/卡酷少儿.png" group-title="少儿卡通,卡酷少儿
+#EXTINF:-1 tvg-name="卡酷少儿" tvg-logo="https://logo.catvod.com/卡酷少儿.png" group-title="少儿卡通",卡酷少儿
 http://39.134.87.62/000000001000/7851974109718180595/index.m3u8
-#EXTINF:-1 tvg-name="中国教育-1" tvg-logo="https://logo.catvod.com/CETV1.png" group-title="少儿卡通,中国教育-1
+#EXTINF:-1 tvg-name="中国教育-1" tvg-logo="https://logo.catvod.com/CETV1.png" group-title="少儿卡通",中国教育-1
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001100/index.m3u8
-#EXTINF:-1 tvg-name="中国教育-1" tvg-logo="https://logo.catvod.com/CETV1.png" group-title="少儿卡通,中国教育-1
+#EXTINF:-1 tvg-name="中国教育-1" tvg-logo="https://logo.catvod.com/CETV1.png" group-title="少儿卡通",中国教育-1
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001020/index.m3u8
 http://117.135.56.6:6060/cms001/ch00000090990000001020/index.m3u8
-#EXTINF:-1 tvg-name="中国教育-1" tvg-logo="https://logo.catvod.com/CETV1.png" group-title="少儿卡通,中国教育-1
+#EXTINF:-1 tvg-name="中国教育-1" tvg-logo="https://logo.catvod.com/CETV1.png" group-title="少儿卡通",中国教育-1
 http://39.134.87.62/000000001000/5000000002000002652/index.m3u8
-#EXTINF:-1 tvg-name="中国教育-2" tvg-logo="https://logo.catvod.com/CETV2.png" group-title="少儿卡通,中国教育-2
+#EXTINF:-1 tvg-name="中国教育-2" tvg-logo="https://logo.catvod.com/CETV2.png" group-title="少儿卡通",中国教育-2
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001226/index.m3u8
 http://117.135.56.6:6060/cms001/ch00000090990000001226/index.m3u8
-#EXTINF:-1 tvg-name="早期教育" tvg-logo="https://logo.catvod.com/早期教育.png" group-title="少儿卡通,中国教育-早期教育
+#EXTINF:-1 tvg-name="早期教育" tvg-logo="https://logo.catvod.com/早期教育.png" group-title="少儿卡通",中国教育-早期教育
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001680/index.m3u8
 http://117.135.56.6:6060/cms001/ch00000090990000001680/index.m3u8
-#EXTINF:-1 tvg-name="中国教育-4" tvg-logo="https://logo.catvod.com/CETV4.png" group-title="少儿卡通,中国教育-4
+#EXTINF:-1 tvg-name="中国教育-4" tvg-logo="https://logo.catvod.com/CETV4.png" group-title="少儿卡通",中国教育-4
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001348/index.m3u8
 http://117.135.56.6:6060/cms001/ch00000090990000001348/index.m3u8
-#EXTINF:-1 tvg-name="中国教育-4" tvg-logo="https://logo.catvod.com/CETV4.png" group-title="少儿卡通,中国教育-4
+#EXTINF:-1 tvg-name="中国教育-4" tvg-logo="https://logo.catvod.com/CETV4.png" group-title="少儿卡通",中国教育-4
 http://39.134.87.62/000000001000/5000000006000012123/index.m3u8
-#EXTINF:-1 tvg-name="中国教育-4" tvg-logo="https://logo.catvod.com/CETV4.png" group-title="少儿卡通,中国教育-4
+#EXTINF:-1 tvg-name="中国教育-4" tvg-logo="https://logo.catvod.com/CETV4.png" group-title="少儿卡通",中国教育-4
 http://39.134.87.62/000000001000/5000000011000031126/index.m3u8 
 http://39.134.91.132:8112/000000000000/5000000011000031126/1.m3u8
 #EXTINF:-1 tvg-name="金鹰纪实" tvg-logo="https://logo.catvod.com/金鹰纪实.png" group-title="数字",金鹰纪实
