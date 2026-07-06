@@ -367,16 +367,6 @@ http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001111/index.m3u8
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001195/index.m3u8
 #EXTINF:-1 tvg-name="法治天地" tvg-logo="https://logo.catvod.com/法治天地.png" group-title="上海本地",法治天地
 http://39.134.87.62/000000001000/9001547084732463424/index.m3u8
-#EXTINF:-1 tvg-name="都市剧场" tvg-logo="https://logo.catvod.com/都市剧场.png" group-title="上海本地",都市剧场
-http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001107/index.m3u8
-#EXTINF:-1 tvg-name="都市剧场" tvg-logo="https://logo.catvod.com/都市剧场.png" group-title="上海本地",都市剧场
-http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001203/index.m3u8
-#EXTINF:-1 tvg-name="都市剧场" tvg-logo="https://logo.catvod.com/都市剧场.png" group-title="上海本地",都市剧场
-http://39.134.87.62/000000001000/5000000011000031111/index.m3u8
-#EXTINF:-1 tvg-name="欢笑剧场" tvg-logo="https://logo.catvod.com/欢笑剧场.png" group-title="上海本地",欢笑剧场
-http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001113/index.m3u8
-#EXTINF:-1 tvg-name="欢笑剧场" tvg-logo="https://logo.catvod.com/欢笑剧场.png" group-title="上海本地",欢笑剧场
-http://39.134.87.62/000000001000/5000000002000009455/index.m3u8
 #EXTINF:-1 tvg-name="游戏风云" tvg-logo="https://logo.catvod.com/游戏风云.png" group-title="上海本地",游戏风云
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001114/index.m3u8
 #EXTINF:-1 tvg-name="游戏风云" tvg-logo="https://logo.catvod.com/游戏风云.png" group-title="上海本地",游戏风云
@@ -473,6 +463,16 @@ http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001640/index.m3u8
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001650/index.m3u8
 #EXTINF:-1 tvg-name="第一剧场" tvg-logo="https://logo.catvod.com/第一剧场.png" group-title="数字付费",第一剧场
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001621/index.m3u8
+#EXTINF:-1 tvg-name="都市剧场" tvg-logo="https://logo.catvod.com/都市剧场.png" group-title="数字付费",都市剧场
+http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001107/index.m3u8
+#EXTINF:-1 tvg-name="都市剧场" tvg-logo="https://logo.catvod.com/都市剧场.png" group-title="数字付费",都市剧场
+http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001203/index.m3u8
+#EXTINF:-1 tvg-name="都市剧场" tvg-logo="https://logo.catvod.com/都市剧场.png" group-title="数字付费",都市剧场
+http://39.134.87.62/000000001000/5000000011000031111/index.m3u8
+#EXTINF:-1 tvg-name="欢笑剧场" tvg-logo="https://logo.catvod.com/欢笑剧场.png" group-title="数字付费",欢笑剧场
+http://39.134.87.62/000000001000/5000000002000009455/index.m3u8
+#EXTINF:-1 tvg-name="欢笑剧场" tvg-logo="https://logo.catvod.com/欢笑剧场.png" group-title="数字付费",欢笑剧场
+http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001113/index.m3u8
 #EXTINF:-1 tvg-name="多彩文体" tvg-logo="https://logo.catvod.com/多彩文体.png" group-title="数字付费",多彩文体
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001193/index.m3u8
 #EXTINF:-1 tvg-name="快乐垂钓" tvg-logo="https://logo.catvod.com/快乐垂钓.png" group-title="数字付费",快乐垂钓
