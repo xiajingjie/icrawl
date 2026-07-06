@@ -30,8 +30,12 @@ http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001011/index.m3u8
 #EXTINF:-1 tvg-name="CCTV4" tvg-logo="https://logo.catvod.com/CCTV4.png" group-title="央视",CCTV-4
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001221/index.m3u8
 http://117.135.56.6:6060/cms001/ch00000090990000001221/index.m3u8
-#EXTINF:-1 tvg-name="CCTV4" tvg-logo="https://logo.catvod.com/CCTV4.png" group-title="央视",CCTV-4
+#EXTINF:-1 tvg-name="CCTV4中文" tvg-logo="https://logo.catvod.com/CCTV4.png" group-title="央视",CCTV-4中文
 http://39.134.87.62/000000001000/5000000011000031102/index.m3u8
+#EXTINF:-1 tvg-name="CCTV4欧洲" tvg-logo="https://logo.catvod.com/CCTV4欧洲.png" group-title="央视",CCTV-4欧洲
+webview://https://tv.cctv.com/live/cctveurope/index.shtml
+#EXTINF:-1 tvg-name="CCTV4美洲" tvg-logo="https://logo.catvod.com/CCTV4.png" group-title="央视",CCTV-4美洲
+webview://https://tv.cctv.com/live/cctvamerica/index.shtml
 #EXTINF:-1 tvg-name="CCTV5" tvg-logo="https://logo.catvod.com/CCTV5.png" group-title="央视",CCTV-5
 http://39.134.87.62/000000001000/5000000004000008885/index.m3u8
 #EXTINF:-1 tvg-name="CCTV5" tvg-logo="https://logo.catvod.com/CCTV5.png" group-title="央视",CCTV-5
