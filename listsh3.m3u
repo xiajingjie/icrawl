@@ -587,8 +587,6 @@ http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001203/index.m3u8
 http://117.135.56.6:6060/cms001/ch00000090990000001203/index.m3u8
 #EXTINF:-1 tvg-name="都市剧场" tvg-logo="https://logo.catvod.com/都市剧场.png" group-title="数字",都市剧场
 http://39.134.87.62/000000001000/5000000011000031111/index.m3u8
-#EXTINF:-1 tvg-name="欢笑剧场" tvg-logo="https://logo.catvod.com/欢笑剧场.png" group-title="数字",欢笑剧场
-http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001113/index.m3u8
 #EXTINF:-1 tvg-name="快乐垂钓" tvg-logo="https://logo.catvod.com/快乐垂钓.png" group-title="数字",快乐垂钓
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001235/index.m3u8
 http://117.135.56.6:6060/cms001/ch00000090990000001235/index.m3u8
@@ -672,10 +670,12 @@ http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001154/index.m3u8
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001359/index.m3u8
 #EXTINF:-1 tvg-name="直播室11" tvg-logo="https://logo.catvod.com/直播室11.png" group-title="其他特色",直播室11
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001398/index.m3u8
-#EXTINF:-1 tvg-name="上海外语" tvg-logo="https://live.fanmingming.com/tv/上海外语.png" group-title="上海本地",上海外语
+#EXTINF:-1 tvg-name="上海外语" tvg-logo="https://live.fanmingming.com/tv/上海外语.png" group-title="其他特色",上海外语
 http://39.134.87.62/000000001000/5000000010000030951/index.m3u8
-#EXTINF:-1 tvg-name="纪实人文" tvg-logo="https://live.fanmingming.com/tv/纪实人文.png" group-title="上海本地",纪实人文
+#EXTINF:-1 tvg-name="纪实人文" tvg-logo="https://live.fanmingming.com/tv/纪实人文.png" group-title="其他特色",纪实人文
 http://39.134.87.62/000000001000/5000000001000021713/index.m3u8
+#EXTINF:-1 tvg-name="欢笑剧场" tvg-logo="https://logo.catvod.com/欢笑剧场.png" group-title="其他特色",欢笑剧场
+http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001113/index.m3u8
 #EXTINF:-1 tvg-name="熊猫频道" tvg-logo="https://logo.catvod.com/ipanda.png" group-title="其他特色",iPanda熊猫频道
 https://gcalic.v.myalicdn.com/gc/ipanda_1td/index.m3u8
 
