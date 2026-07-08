@@ -175,6 +175,7 @@ http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001007/index.m3u8
 #EXTINF:-1 tvg-name="浙江卫视" tvg-logo="https://logo.catvod.com/浙江卫视.png" group-title="卫视",浙江卫视
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001023/index.m3u8
 http://117.135.56.6:6060/cms001/ch00000090990000001023/index.m3u8
+http://gslbserv.itv.cmvideo.cn/5000000004000007275/1.m3u8?channel-id=bestzb&Contentid=5000000004000007275&livemode=1&stbId=3
 #EXTINF:-1 tvg-name="浙江卫视" tvg-logo="https://logo.catvod.com/浙江卫视.png" group-title="卫视",浙江卫视
 http://39.134.87.62/000000001000/5000000010000017320/index.m3u8
 #EXTINF:-1 tvg-name="湖南卫视" tvg-logo="https://logo.catvod.com/湖南卫视.png" group-title="卫视",湖南卫视
