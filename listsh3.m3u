@@ -397,12 +397,12 @@ http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001014/index.m3u8
 http://117.135.56.6:6060/cms001/ch00000090990000001014/index.m3u8
 #EXTINF:-1 tvg-name="新闻综合" tvg-logo="https://logo.catvod.com/新闻综合.png" group-title="上海本地",新闻综合
 http://39.134.87.62/000000001000/5000000011000031110/index.m3u8
-#EXTINF:-1 tvg-name="都市频道" tvg-logo="https://logo.catvod.com/都市频道.png" group-title="上海本地",都市频道
+#EXTINF:-1 tvg-name="上海都市" tvg-logo="https://logo.catvod.com/上海都市.png" group-title="上海本地",上海都市
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001005/index.m3u8
-#EXTINF:-1 tvg-name="都市频道" tvg-logo="https://logo.catvod.com/都市频道.png" group-title="上海本地",都市频道
+#EXTINF:-1 tvg-name="上海都市" tvg-logo="https://logo.catvod.com/上海都市.png" group-title="上海本地",上海都市
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001015/index.m3u8
 http://117.135.56.6:6060/cms001/ch00000090990000001015/index.m3u8
-#EXTINF:-1 tvg-name="都市频道" tvg-logo="https://logo.catvod.com/都市频道.png" group-title="上海本地",都市频道
+#EXTINF:-1 tvg-name="上海都市" tvg-logo="https://logo.catvod.com/上海都市.png" group-title="上海本地",上海都市
 http://39.134.87.62/000000001000/5000000010000018926/index.m3u8
 #EXTINF:-1 tvg-name="东方影视" tvg-logo="https://logo.catvod.com/东方影视.png" group-title="上海本地",东方影视
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001046/index.m3u8
