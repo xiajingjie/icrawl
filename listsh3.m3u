@@ -496,7 +496,7 @@ http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001278/index.m3u8
 #EXTINF:-1 tvg-name="天广购物" tvg-logo="https://logo.catvod.com/天广购物.png" group-title="财经购物",天广购物
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001142/index.m3u8
 http://117.135.56.6:6060/cms001/ch00000090990000001142/index.m3u8
-#EXTINF:-1 tvg-name="天广购物" tvg-logo="https://logo.catvod.com/天广购物.png" group-title="财经购物",天广购物
+#EXTINF:-1 tvg-name="央广购物" tvg-logo="https://logo.catvod.com/天广购物.png" group-title="财经购物",天广购物
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001420/index.m3u8
 http://117.135.56.6:6060/cms001/ch00000090990000001420/index.m3u8
 #EXTINF:-1 tvg-name="好享购物" tvg-logo="https://logo.catvod.com/好享购物.png" group-title="财经购物",好享购物
