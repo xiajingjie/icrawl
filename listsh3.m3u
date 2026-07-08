@@ -181,6 +181,7 @@ http://39.134.87.62/000000001000/5000000010000017320/index.m3u8
 #EXTINF:-1 tvg-name="湖南卫视" tvg-logo="https://logo.catvod.com/湖南卫视.png" group-title="卫视",湖南卫视
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001026/index.m3u8
 http://117.135.56.6:6060/cms001/ch00000090990000001026/index.m3u8
+http://39.134.87.62/000000001000/5000000004000006692/index.m3u8
 #EXTINF:-1 tvg-name="湖南卫视" tvg-logo="https://logo.catvod.com/湖南卫视.png" group-title="卫视",湖南卫视
 http://39.134.87.62/000000001000/5000000010000030452/index.m3u8
 #EXTINF:-1 tvg-name="湖南卫视" tvg-logo="https://logo.catvod.com/湖南卫视.png" group-title="卫视",湖南卫视
@@ -494,7 +495,7 @@ http://39.134.87.62/000000001000/5000000007000010003/index.m3u8
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001219/index.m3u8
 #EXTINF:-1 tvg-name="家庭理财" tvg-logo="https://logo.catvod.com/家庭理财.png" group-title="财经购物",家庭理财
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001278/index.m3u8
-#EXTINF:-1 tvg-name="天广购物" tvg-logo="https://logo.catvod.com/天广购物.png" group-title="财经购物",天广购物
+#EXTINF:-1 tvg-name="央广购物" tvg-logo="https://logo.catvod.com/天广购物.png" group-title="财经购物",天广购物
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001142/index.m3u8
 http://117.135.56.6:6060/cms001/ch00000090990000001142/index.m3u8
 #EXTINF:-1 tvg-name="央广购物" tvg-logo="https://logo.catvod.com/天广购物.png" group-title="财经购物",天广购物
@@ -535,6 +536,7 @@ http://117.135.56.6:6060/cms001/ch00000090990000001193/index.m3u8
 #EXTINF:-1 tvg-name="北京卫视4K" tvg-logo="https://logo.catvod.com/北京卫视4K.png" group-title="4k超清",北京卫视4K
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001510/index.m3u8
 http://117.135.56.6:6060/cms001/ch00000090990000001510/index.m3u8
+http://gslbserv.itv.cmvideo.cn/5000000007000010001/1.m3u8?channel-id=bestzb&Contentid=5000000007000010001&livemode=1&stbId=3
 #EXTINF:-1 tvg-name="北京卫视4K" tvg-logo="https://logo.catvod.com/北京卫视4K.png" group-title="4k超清",北京卫视4K
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001500/index.m3u8
 #EXTINF:-1 tvg-name="广东卫视4K" tvg-logo="https://logo.catvod.com/广东卫视4K.png" group-title="4k超清",广东卫视4K
